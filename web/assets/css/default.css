@@ -1,0 +1,151 @@
+/*clear default margin */
+body{
+    margin: 0 2%;
+
+}
+#main{
+    overflow: hidden;
+}
+/*global color*/
+*{
+    color: #108ac5;
+}
+/*default width*/
+#nav2 ul li {
+    display: inline-block;
+}
+
+#nav2 ul li {
+    list-style-type: none;
+    font-size: 17px;
+    /*padding: 5px 15px;*/
+    border-radius: 3px;
+    text-align: center;
+}
+
+#nav2 ul li.active_link {
+    background-color: #b9dce5;
+    border: 1px solid #94b3c5
+}
+
+#nav2 ul li:hover {
+    background-color: #b9dce5;
+}
+
+#nav2 ul li > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+#nav2 ul li > a:hover {
+    text-decoration: underline;
+}
+
+/*for larger screens*/
+@media all and (max-width: 2000px) {
+    #nav2 ul li {
+        display: inline-block;
+    }
+
+    #nav2 {
+        border-bottom: 1px solid #ccc;
+        vertical-align: baseline;
+        padding: 5px;
+        /*margin-left: 100px;*/
+
+    }
+}
+
+/*for smaller screen*/
+@media all and (max-width: 800px) {
+    #nav2 ul li {
+        width: 200px;
+        background-color: #ddd;
+        border: 1px solid #ccc;
+        display: block;
+    }
+
+    #nav2 {
+        width: 200px;
+        margin: auto;
+        border-bottom: none;
+    }
+}
+
+section#main {
+    min-height: 500px;
+}
+
+
+footer {
+    height: 50px;
+    background-color: #7ca9c5;
+    border: 1px solid #6898c5;
+}
+
+#project_name{
+    float: left
+}
+ul{
+    margin: 0;
+}
+#nav1{
+    float: right;
+}
+#first_header{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav1 ul li{
+    display: inline;
+    padding: 5px 10px;
+}
+#nav1 a{
+    text-decoration: none;
+}
+#nav1 a:hover{
+    text-decoration: underline;
+}
+#banner {
+    /*height: 175px;*/
+    height: 35px;
+    /*background: url("/assets/img/twitter_logo.jpg") no-repeat;*/
+    /*background: url("/TwitterBarProject/assets/img/long_banner3.jpg") no-repeat;*/
+
+    background-color: #41bdf2;
+    /*background-size: 100% 175px;*/
+    clear: both;
+    /*background-repeat: no-repeat;*/
+}
+#first_header{
+    border-top: 1px solid #aaa;
+    border-bottom: 2px solid #0496bf;
+    padding: 5px;
+    overflow: hidden;
+    color: black;
+}
+#first_header a{
+    text-decoration: none;
+}
+#home_logo{
+    background: url("/TwitterBarProject/assets/img/home_logo.jpg") no-repeat;
+    background-size: 100% auto ;
+    height: 700px;
+    /*width: 100%;*/
+    /*margin: auto 20%;*/
+
+}
+#home_text{
+    font-size: 50px;
+}
+
+#home_cont{
+    padding: 0 25%;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
